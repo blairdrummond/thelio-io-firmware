@@ -14,14 +14,14 @@
     /* LED frequency in Hz */ \
     CFG_32(led_frequency, 125000) \
     /* LED transition speed in us */ \
-    CFG_32(led_transition, 200000) \
+    CFG_32(led_transition, 2000000) \
     /* LED suspend transition speed in us */ \
-    CFG_32(suspend_transition, 6000000) \
+    CFG_32(suspend_transition, 18000000) \
     /* Off setting of power LED in 0..10000 */ \
     /* 79, 157, and 235 are valid low settings */ \
     CFG_16(powerbtn_off, 235) \
     /* Max suspend setting of power LED in 0..10000 */ \
-    CFG_16(powerbtn_suspend, 2500) \
+    CFG_16(powerbtn_suspend, 500) \
     /* On setting of power LED in 0..10000 */ \
     CFG_16(powerbtn_on, 3500) \
     /* Pressed setting of power LED in 0..10000 */ \
